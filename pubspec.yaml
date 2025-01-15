@@ -1,0 +1,45 @@
+name: testkakao
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  kakao_flutter_sdk: ^1.9.5
+  http: ^1.2.2
+  record: ^5.2.0
+  just_audio: ^0.9.36
+
+  cupertino_icons: ^1.0.8
+  path_provider: ^2.1.5
+  mime: ^2.0.0
+  http_parser: ^4.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Galano
+      fonts:
+        - asset: assets/fonts/Galano Grotesque DEMO Bold.otf
+          weight: 400
+    - family: AgeoPersonalUse
+      fonts:
+        - asset: assets/fonts/AgeoPersonalUse-Bold.otf
+          weight: 400
