@@ -1,6 +1,6 @@
-# testkakao
+# Echoes of Tomorrow
 
-A new Flutter project.
+카이스트 몰입캠프 3주차
 
 ## Getting Started
 
